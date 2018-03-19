@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: yhyc2018
+    url: jdbc:mysql://localhost/mwdata?characterEncoding=utf-8&useSSL=false
+server:
+  port: 80
+  context-path: /yhyc
